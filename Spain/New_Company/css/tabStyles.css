@@ -1,0 +1,39 @@
+.Staging_ETL_all_tabs {background-color : rgb(204, 204, 204);font-family: Tahoma, sans-serif;font-size : 11.0px;}.Staging_ETL_current_tab {color : rgb(51, 51, 51);background-color : rgb(230, 230, 230);}.Staging_ETL_current_tab_selected {border: 1px solid rgba(0, 0, 0, 0.2);}.Staging_ETL_other_tabs {border: 1px solid rgba(0, 0, 0, 0.2);}
+
+.tab_list {width: 100% !important; overflow-x: hidden !important;}.tab_list li {width: none !important; box-sizing: content-box !important; padding-left: 25px !important;}.tab_list a, .tab_list a:visited, .tab_list a:active {width: 90% !important; margin: 0 5% 0 5% !important; padding: 0 !important;}.tab_list li:first-child {margin-left: -25px !important;}
+
+body, pre { font-family: Tahoma; font-size: 14px; color: #000000; }
+.htmlTable { vertical-align: top; border-style:dashed; border-width:0px; }
+.paragraphMargin { margin-top: 0; }
+.SmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:0px; border-bottom-width:0px; border-right-width:0px;  }
+.SmartBorderPale { }
+.bSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:0px; border-bottom-width:1px; border-right-width:0px;  }
+.bSmartBorderPale { }
+.rSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:0px; border-bottom-width:0px; border-right-width:1px;  }
+.rSmartBorderPale { }
+.brSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:0px; border-bottom-width:1px; border-right-width:1px;  }
+.brSmartBorderPale { }
+.lSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:1px; border-bottom-width:0px; border-right-width:0px;  }
+.lSmartBorderPale { }
+.lbSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:1px; border-bottom-width:1px; border-right-width:0px;  }
+.lbSmartBorderPale { }
+.lrSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:1px; border-bottom-width:0px; border-right-width:1px;  }
+.lrSmartBorderPale { }
+.lbrSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:0px; border-left-width:1px; border-bottom-width:1px; border-right-width:1px;  }
+.lbrSmartBorderPale { }
+.tSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:0px; border-bottom-width:0px; border-right-width:0px;  }
+.tSmartBorderPale { }
+.tbSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:0px; border-bottom-width:1px; border-right-width:0px;  }
+.tbSmartBorderPale { }
+.trSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:0px; border-bottom-width:0px; border-right-width:1px;  }
+.trSmartBorderPale { }
+.tbrSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:0px; border-bottom-width:1px; border-right-width:1px;  }
+.tbrSmartBorderPale { }
+.tlSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:1px; border-bottom-width:0px; border-right-width:0px;  }
+.tlSmartBorderPale { }
+.tlbSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:1px; border-bottom-width:1px; border-right-width:0px;  }
+.tlbSmartBorderPale { }
+.tlrSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:1px; border-bottom-width:0px; border-right-width:1px;  }
+.tlrSmartBorderPale { }
+.tlbrSmartBorder { vertical-align: top; border-color:#C0C0C0;  border-style:solid; border-top-width:1px; border-left-width:1px; border-bottom-width:1px; border-right-width:1px;  }
+.tlbrSmartBorderPale { }

@@ -1,0 +1,120 @@
+/**
+ * Copyright Visokio.
+ * Author: Soruban
+ * Date: 13/01/12
+ */
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    background-color: rgb(242, 242, 237);
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+/******************** Screenshots. ********************/
+
+#content_area {
+}
+
+.tab_hidden {
+    display: none;
+}
+
+.tab_visible {
+    position: absolute;
+}
+
+.screenshots_holder {
+}
+
+.screenshots_holder img{
+    width: 100%;
+    height: 100%;
+    /*-webkit-transform:translate3d(0,0,0);*/
+}
+
+/* Class to animate the tab using css3 props, the left value should be set through js. */
+.tab_animate {
+    transition : left 0.5s linear;
+    -moz-transition : left 0.5s linear; /* Firefox 4 */
+    -webkit-transition : left 0.5s linear; /* Safari and Chrome */
+    -o-transition : left 0.5s linear; /* Opera */
+}
+
+
+
+
+/****** Tabs menu. ******/
+#tabs_holder {
+    position: relative;
+    height: 30px;
+    padding-top: 5px; /* 5px to avoid the tabs touching the edge of the window */
+}
+
+.tab_list {
+    height: 31px; /** Height of 30px + 1px to cover the bottom bar. */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    list-style-type: none;
+    position: relative;
+}
+
+.tab_list li {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    top: 0;
+    margin-left: -25px;
+    border-top-left-radius: 20px 100px;
+    border-top-right-radius: 20px 100px;
+    overflow: hidden;
+
+    /* Hack for IE7 to work with inline-block. */
+    zoom:1;
+    *display:inline;
+    /*_height: 30px;*/
+}
+
+/*.tab_list li */
+
+a, a:visited, a:active {
+    display: inline-block;
+    width: 110px;
+    line-height: 30px;
+    padding: 0 20px 0 20px;
+    font-size: 11pt;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab_list li:first-child {
+    margin-left: 0;
+}
+
+.tab_list .current{
+    z-index: 3;
+}
+
+.bar{
+    background-color: #9c9c9c;
+    height: 1px;
+
+    /* We need to move the bar up so that it will be below the selected tab. */
+    position: relative;
+    top: -1px;
+    width: 100%;
+    z-index: 2;
+}
