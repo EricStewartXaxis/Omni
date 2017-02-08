@@ -1,0 +1,53 @@
+The execution was successful
+
+- Initializing Data Flow Task (Success)
+
+- Initializing Connections (Success)
+
+- Setting SQL Command (Success)
+
+- Setting Source Connection (Success)
+
+- Setting Destination Connection (Success)
+
+- Validating (Success)
+	Messages
+	* Warning 0x80047076: Data Flow Task 1: The output column "transfer_session_id" (20) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80047076: Data Flow Task 1: The output column "val_severity_id" (23) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80047076: Data Flow Task 1: The output column "replace_value_from" (26) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80047076: Data Flow Task 1: The output column "replace_value_to" (29) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80047076: Data Flow Task 1: The output column "replace_row" (32) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80047076: Data Flow Task 1: The output column "date_modified" (35) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+	* Warning 0x80047076: Data Flow Task 1: The output column "last_user" (38) on output "OLE DB Source Output" (11) and component "Source - Query" (1) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+	 (SQL Server Import and Export Wizard)
+	
+
+- Prepare for Execute (Success)
+
+- Pre-execute (Success)
+
+- Executing (Success)
+
+- Copying to `Summary_Hidden$` (Success)
+	* 19 rows transferred
+
+- Post-execute (Success)
+	Messages
+	* Information 0x4004300b: Data Flow Task 1: "Destination - Summary_Hidden$" wrote 19 rows.
+	 (SQL Server Import and Export Wizard)
+	
+
+
+
